@@ -43,7 +43,7 @@ main .title_wrap .container .right_wrap .text_title h1{
 }
 main .title_wrap .container .right_wrap .text_title p {
     font-size: 0.875rem;
-    
+    text-overflow: ellipsis;
 }
 main .title_wrap .container .right_wrap .list_top > li {
     width: 223px;
@@ -111,6 +111,9 @@ main .list_wrap .list_bottom > li .list_product a{
     font-size: 0.875rem;
     color: #aaa;
     margin: 5px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .list > li .list_contents p:nth-of-type(2){
     font-size: 0.875rem; font-weight: 600;
