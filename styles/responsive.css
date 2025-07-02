@@ -1,4 +1,10 @@
 @media screen and (max-width:767px) {
+    main .title_wrap{
+        margin: 0 auto 30px;
+    }
+    main .title_wrap h2 {
+        margin-bottom: 30px;
+    }
     main .title_wrap .container .right_wrap {
         display: none;
     }
@@ -6,8 +12,21 @@
         margin: 0 auto;
         margin-right: 0;
     }
+    main .title_wrap .container .left_wrap .like1{
+        right: 17px; top: 19px;
+    }
+    main .title_wrap .container .left_wrap .bg_img{
+        width: 430px; height: 527px;
+    }
+    main .list_wrap .title h2{
+        font-size: 1.25rem; font-weight: 600;
+    }
     main .list_wrap .title a {
         display: none;
+    }
+    main .list_wrap .list_bottom > li {
+        width: 136.67px;
+        margin-right: 10px;
     }
     main .list_wrap .list_bottom .list4 {
         display: none;
