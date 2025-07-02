@@ -1,0 +1,18 @@
+@media screen and (max-width:767px) {
+    main .title_wrap .container .right_wrap {
+        display: none;
+    }
+    main .title_wrap .container .left_wrap {
+        margin: 0 auto;
+        margin-right: 0;
+    }
+    main .list_wrap .list_bottom .list4 {
+        display: none;
+    }
+    main .list_wrap .list_bottom .list5 {
+        display: none;
+    }
+    main .list_wrap .list_bottom .list6 {
+        display: none;
+    }
+}

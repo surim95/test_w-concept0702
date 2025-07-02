@@ -1,7 +1,7 @@
 body {}
 main {
     max-width: 100%;
-    min-width: 768px;
+    min-width: 320px;
 }
 main .title_wrap{
     width: max-content;
