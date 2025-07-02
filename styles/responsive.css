@@ -6,6 +6,9 @@
         margin: 0 auto;
         margin-right: 0;
     }
+    main .list_wrap .title a {
+        display: none;
+    }
     main .list_wrap .list_bottom .list4 {
         display: none;
     }
